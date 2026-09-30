@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/sidebar";
 
 // ผู้ใช้ตัวอย่างฝั่ง Lecture: ผู้ดูแลระบบ (ADMIN)
-const NICKNAME = "Admin";
+const NICKNAME = "Thachy";
 const ROLE = "ADMIN";
 
 const items = [

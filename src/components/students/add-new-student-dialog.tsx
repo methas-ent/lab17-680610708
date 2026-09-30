@@ -70,7 +70,7 @@ export function AddNewStudentDialog() {
   const form = useForm<StudentFormValues>({
     resolver: zodResolver(schema),
     defaultValues: emptyStudentForm,
-    mode: "onBlur", 
+    mode: "onBlur",
   });
 
   // ─── useFieldArray ───
@@ -188,7 +188,7 @@ export function AddNewStudentDialog() {
                     value={field.value ?? null}
                     onValueChange={(v) => {
                       field.onChange(v);
-                      field.onBlur(); 
+                      field.onBlur();
                     }}
                   >
                     <SelectTrigger
